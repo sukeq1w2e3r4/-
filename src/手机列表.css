@@ -1,0 +1,413 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+#nave {
+    width: 100%;
+    height: 37px;
+    background-color: #2e2828;
+}
+#nave .war {
+    width: 1205px;
+    height: 37px;
+    margin: 0 auto;
+}
+
+#nave .war .left {
+    width: 600px;
+    height: 37px;
+    float: left;
+}
+#nave .war .left-1 a {
+    text-decoration: none;
+    color: #c2c3c3;
+}
+#nave .left-1>li {
+    width: 65px;
+    height: 37px;
+    list-style: none;
+    font-size: 12px;
+    line-height: 37px;
+    text-align: center;
+    float: left;
+    padding: 0 7px;
+    position: relative;
+    z-index: 666666;
+}
+
+#nave .left-1 .su:hover {
+    background: #ffffff;
+    color: red;
+}
+
+#nave #xiala {
+    width: 100px;
+    background-color: #ffffff;
+    margin-top: -1px;
+    border-top: none;
+    position: absolute;
+    right: -1px;
+    display: none;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#nave #xiala .cai>li {
+    list-style: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+#nave .left-1 .su:hover #xiala {
+    display: block;
+}
+
+#nave .right {
+    width: 500px;
+    height: 37px;
+    float: right;
+}
+
+#nave .right-1>li {
+    width: 60px;
+    height: 37px;
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+#nave .right .right-1 a {
+    text-decoration: none;
+    color: #cecece;
+    width: 60px;
+    height: 37px;
+    display: block;
+}
+
+#nave #tu {
+    width: 13px;
+    height: 13px;
+    padding-top: 2px;
+}
+
+#nave .right .right-1 :hover .ke {
+    background-color: #ffffff;
+    color: red;
+}
+
+#nave .one {
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    z-index: 66666666;
+    position: relative;
+}
+
+#nave .one li {
+    list-style: none;
+}
+
+#nave .right .right-1 :hover .one {
+    display: block;
+}
+
+#nave .right .right-1 .ui {
+    background-color: #424242;
+}
+#xuan {
+    width: 100%;
+    height: 92px;
+}
+
+#xuan .war {
+    width: 1205px;
+    height: 92px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    position: relative;
+}
+
+#xuan .war img {
+    float: left;
+    cursor: pointer;
+}
+
+#xuan .war .left {
+    width: 662px;
+    height: 92px;
+    float: left;
+}
+
+#xuan .war .left a {
+    text-decoration: none;
+    color: #353535;
+}
+
+#xuan .war .left li {
+    list-style: none;
+    float: left;
+    margin-right: 24px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+#xuan .war .left ul {
+    margin-left: 39px;
+}
+
+#xuan .war .left .left-1 {
+    padding: 5px 5px;
+    width: 72px;
+    height: 24px;
+    background-color: #ff8486;
+    border-radius: 8px;
+    margin-top: 27px;
+    text-align: center;
+}
+
+#xuan .war .left li :hover {
+    color: red;
+}
+
+#xuan .war .rigt {
+    width: 260px;
+    height: 92px;
+    float: right;
+}
+
+#xuan .war .rigt input {
+    width: 220px;
+    height: 29px;
+    outline: none;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    text-indent: 100px;
+    background-color: #f0f0f0;
+    float: left;
+    margin-top: 23px;
+}
+
+#xuan .war .rigt .fang {
+    width: 30px;
+    height: 29px;
+    float: left;
+    border-radius: 0 10px 10px 0;
+    background-color: #f0f0f0;
+    margin-top: 23px;
+}
+
+
+
+
+
+
+
+
+
+#xuan #caidan {
+    width: 201px;
+    height: 441px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 99;
+    left: 200px;
+    top: 95px;
+    border-radius: 8px;
+    display: none;
+}
+#xuan .shangpin{
+    height: 92px;
+}
+#xuan .shangpin:hover #caidan{
+    display: block;
+}
+
+#xuan #caidan li {
+    width: 175px;
+    list-style: none;
+    margin-top: 27px;
+    font-size: 13px;
+    position: relative;
+    /* z-index: 4; */
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+#xuan #caidan a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+#xuan #caidan li>img {
+    width: 8px;
+    height: 13px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+#xuan #caidan #box1 {
+    position: relative;
+    z-index: 10;
+}
+#xuan #caidan li .er {
+    width: 450px;
+    height: 441px;
+    background-color: #ffffff;
+    position: absolute;
+    top: -12px;
+    left: 170px;
+    display: none;
+    z-index: 99999999999999;
+    border-radius: 8px;
+}
+#xuan #caidan li:hover .er {
+    display: block;
+}
+
+#xuan #caidan li #er-1 {
+    width: 184px;
+    height: 60px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#xuan #caidan li #er-1 img {
+    width: 45px;
+    height: 50px;
+    padding-top: 6px;
+    float: left;
+}
+
+#xuan #caidan li #er-1 span {
+    line-height: 60px;
+    color: #8f8f8f;
+}
+
+#xuan #caidan li #er-1:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.08);
+}
+#tou{
+    width: 100%;
+    height: 70px;
+    background-color: #f5f5f5;
+}
+#tou .war{
+    width:  1202px;
+    height: 70px;
+    margin: 0 auto;
+}
+#tou ul li{
+    list-style: none;
+    line-height: 70px;
+    font-size: 12px;
+    float: left;
+    color: #171717;
+}
+#tou .war .ui-1{
+    color: #565656;
+}
+#tou .war .ui-1:hover{
+    color: #171717;
+    cursor: pointer;
+}
+#fenlei{
+    width: 100%;
+    height: 180px;
+    background-color: pink;
+}
+#fenlei .war{
+    width: 1202px;
+    height: 180px;
+    background-color: powderblue;
+    margin: 0 auto;
+}
+
+
+#fenlei .war .one{
+    width: 1153px;
+    height: 36px;
+    margin: 0 auto;
+    background-color: yellow;
+    border-bottom: 1px solid #eaeaea;
+}
+#fenlei .war .one .ul1 li{
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    line-height: 36px;
+    color: #000000;
+}
+#fenlei .war .one .ul1 .shouji:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+#fenlei .war .two{
+    width: 1153px;
+    height: 36px;
+    margin: 0 auto;
+    background-color: yellow;
+    border-bottom: 1px solid #eaeaea;
+}
+#fenlei .war .two li{
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    line-height: 36px;
+    color: #000000;
+    margin-right: 62px;
+}
+#fenlei .war .two li .yi{
+   color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
