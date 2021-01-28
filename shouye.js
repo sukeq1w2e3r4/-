@@ -67,14 +67,14 @@ box.onmouseleave = function () {
     }, 5000)
 }
 
-$('#box1').mouseenter(function () {
-    $('#left').css('display', 'none')
-})
-$('#box1').mouseleave(function () {
-    $('#left').css('display', 'block')
-})
-
-
+// $('#box1').mouseenter(function () {
+    // $('#left').css('display', 'none')
+// })
+// $('#box1').mouseleave(function () {
+    // $('#left').css('display', 'block')
+// })
+// 
+// 
 var n = 0
 var lun = $('#bo .war li')
 for (let i = 0; i < lun.length; i++) {
